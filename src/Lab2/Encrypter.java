@@ -21,13 +21,13 @@ public class Encrypter {
 
             int index= col;
             for(int row=0; row< numRows; row++){
-                cipherText= cipherText + plaintext[index];
+               // cipherText= cipherText + plaintext[index];
                 index += numColumns;
             }
 
         }
 
-   return cipherText;
+   return cipherText.toString();
 
 
 
